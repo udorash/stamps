@@ -22,12 +22,13 @@ Gem::Specification.new do |s|
   s.add_development_dependency('simplecov', '~> 0.4.0')
   s.add_development_dependency('shoulda', '~> 2.11.3')
   s.add_development_dependency('mocha', '~> 0.9.11')
-  s.add_development_dependency('webmock', '~> 1.6.2')
+  s.add_development_dependency('webmock', '~> 2.3.2')
   s.add_development_dependency('awesome_print')
   s.add_development_dependency('yard')
   s.add_development_dependency('bluecloth')
   s.add_development_dependency('rake')
   s.add_development_dependency('pry')
+  s.add_development_dependency('test-unit')
 
   # We have to use savon 0.8.6 for now since newer versions of savon don't
   # convert booleans, dates, or decimals consistently.
